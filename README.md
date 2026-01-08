@@ -16,6 +16,7 @@ Assumptions/Compromises/Time Constraints:
 - User cannot POST a new project from the REST endpoints
 - Set a time sleep of 60 seconds for how often to check Intempus for new data. Ideally this should be configurable
 - Pytest cases for multiprocessing queue checks
+- Would like to swap out explicit logs in the multiprocess functions for proper loggers
 
 
 ## Deploy
